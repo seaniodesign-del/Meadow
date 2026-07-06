@@ -74,5 +74,5 @@ Initial tracked release. Everything below is present in this first versioned sna
 
 ---
 
-[Unreleased]: https://github.com/USER/Meadow/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/USER/Meadow/releases/tag/v1.0.0
+[Unreleased]: https://github.com/seaniodesign-del/Meadow/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/seaniodesign-del/Meadow/releases/tag/v1.0.0
