@@ -140,7 +140,7 @@ test surface; view logic is kept in view models to stay testable.
 
 ## 📄 License
 
-See [`LICENSE`](LICENSE) (add one if distributing).
+Released under the [MIT License](LICENSE).
 
 🤖 Repository scaffolding, docs, and changelog generated with
 [Claude Code](https://claude.com/claude-code).
