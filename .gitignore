@@ -1,0 +1,39 @@
+# ─── macOS ────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# ─── Xcode: build output & derived data ──────────────────────────────────
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ─── Xcode: per-user state (never shared) ────────────────────────────────
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+Meadow.xcodeproj/xcuserdata/
+Meadow.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Keep shared scheme data and the resolved SPM manifest (reproducible builds):
+!Meadow.xcodeproj/xcshareddata/
+!**/xcshareddata/swiftpm/Package.resolved
+
+# ─── Swift Package Manager ───────────────────────────────────────────────
+.build/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/configuration/
+
+# ─── Claude Code: local-only settings (shared settings.json is committed) ─
+.claude/settings.local.json
+
+# ─── Misc ────────────────────────────────────────────────────────────────
+*.log
+*~

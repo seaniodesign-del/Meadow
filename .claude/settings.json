@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__xcodebuildmcp__*",
+      "Read",
+      "Write",
+      "Edit",
+      "Bash(git *)",
+      "Bash(swift *)",
+      "Bash(swiftlint *)",
+      "Bash(xcodegen *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)"
+    ]
+  },
+  "env": {
+    "PROJECT_NAME": "Meadow",
+    "DEFAULT_SIMULATOR": "iPhone 15",
+    "SWIFT_VERSION": "6.2",
+    "IOS_DEPLOYMENT_TARGET": "26.0"
+  }
+}

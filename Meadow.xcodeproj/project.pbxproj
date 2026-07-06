@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BA0C40DE775CF7EC75A9F04 /* PerlinNoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2CAB1C82EF7A8DF75192B /* PerlinNoise.swift */; };
+		1BB087B71F413FF3B9A1EFA0 /* leaf_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A7C3E8A31AB586407E24CE /* leaf_3.png */; };
+		2C81C07AD78F5F4C3902AC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632CB37ED935CC2D6456F806 /* Assets.xcassets */; };
+		2DE63C769AD4A31AFD56F68E /* GrassRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BF50F1355B3711B02CE1E3 /* GrassRenderer.swift */; };
+		32DF105F0989811105ED1C1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A525582EB1DFB1695845B32 /* ContentView.swift */; };
+		343639F1376B723ECE86EDC9 /* GrassFieldGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B730C46F35C01762AE4262 /* GrassFieldGenerator.swift */; };
+		3B448B1F9E9F1385F48784CB /* GrassRenderTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EC8E07298EC7DFFA3376F6 /* GrassRenderTypes.swift */; };
+		40F4D4097757F413350776AE /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AEDB71AFA7AF1444637509 /* MetalView.swift */; };
+		4192B78A23D3E16E30E44EE4 /* leaf_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F32238EBE18785D218FC595 /* leaf_4.png */; };
+		4596E7AB9D91439B2FA56C92 /* GrassBlade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAF76D7ED871E5E08491D1 /* GrassBlade.swift */; };
+		45F9B25E53EEF1954742B46C /* MeadowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE54B4F90F4BFB9DDCEF15 /* MeadowApp.swift */; };
+		49CD3073B8A3C776DA5AFDAD /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C795F9BB34E31F56D20F1 /* HapticsManager.swift */; };
+		50D9D7860BEB3881E3F75E41 /* DandelionSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDC1B98061D90EBB0CD4173 /* DandelionSystem.swift */; };
+		64DE041B551A3C23460D572F /* GrassAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51178CDF9D28A39C598F4C56 /* GrassAudioEngine.swift */; };
+		6AA3552E789CE8DF0B974E7D /* Model3DView in Frameworks */ = {isa = PBXBuildFile; productRef = 502567C72A6001FE277B37C7 /* Model3DView */; };
+		6E7BE1570BEF4980691974CB /* leaf_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC6B540D2D273E94F242AAC /* leaf_5.png */; };
+		7301B3B42A8CD18FFBCDE489 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0908BC59D3D4FDB3E15188CD /* SettingsSheet.swift */; };
+		738E0D6DED6186811BA66A76 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67551A5795D8B2DBA2B53A04 /* AVFoundation.framework */; };
+		7A847F50F3375EBE494C09E1 /* GrassFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D21C831891C74705B1655 /* GrassFieldViewModel.swift */; };
+		7B1ABB790753E8075AE387A8 /* background_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70750DEA9FD06E9D657B06C1 /* background_music.mp3 */; };
+		7F63A8583614BD668576B257 /* LeafSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66EDD7A09C2DF01F89B45E0 /* LeafSystem.swift */; };
+		7FAF97A03E38BD1F8F0F79B6 /* GrassOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22872C8076559F7EEF1AAA3 /* GrassOverlayView.swift */; };
+		7FE9CA35A2014930816416A8 /* GrassPhysicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078524FD1E85AD9713512A6 /* GrassPhysicsTests.swift */; };
+		8085183BE20092F1291BD79D /* leaf_6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6EAF42BF4580F5C5B78199 /* leaf_6.png */; };
+		81434C87AD0E39C45B011CEB /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E624CCEF87C08BB8FED22634 /* MetalKit.framework */; };
+		824F90916D399F3530561CB2 /* Vortex in Frameworks */ = {isa = PBXBuildFile; productRef = 675C1DEC80FBF30CB25AC463 /* Vortex */; };
+		8BE4F554BCB18F83F9B444C1 /* leaf_0.png in Resources */ = {isa = PBXBuildFile; fileRef = FBDF5735ACFCB4A8DD10D828 /* leaf_0.png */; };
+		8CB2C3A0CBEB633A38F32A68 /* FireflySystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2F7EF5BB18C6F7A6ED7B4 /* FireflySystem.swift */; };
+		92B7DEA57C956B1F73FA1ACB /* SeasonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3668A7EF10FFDFD17A06EB /* SeasonButton.swift */; };
+		D79383FD7DD840DBAF4D82E6 /* GrassInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD804E3F4F4082988BBFEA /* GrassInteraction.swift */; };
+		EE5F45E8544F4F5FACB9F09A /* GrassInteractionSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B5CB561684DDE9A0C47B9 /* GrassInteractionSystem.swift */; };
+		8791A45BD7C84170B44526D8 /* InteractionMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DE57CA15974DD38F457F38 /* InteractionMenuView.swift */; };
+		9855A24035DFABAC9E76E795 /* TreeShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85527CA6D1953311AAA6EDE /* TreeShadowView.swift */; };
+		9D7638D25344E10639D696A7 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E2AF029A32496ADABC5ED /* SettingsButton.swift */; };
+		A1AB1244A4996CCADABEA4F3 /* TimeOfDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26515D094449216E3BF36A1A /* TimeOfDay.swift */; };
+		B403EB474D28365ED224B95F /* GrassSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A1ACE004E721157516DE3 /* GrassSettings.swift */; };
+		B8C8219D51176C2245C12EFA /* GrassShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1ED25EF129DB4D110816676E /* GrassShaders.metal */; };
+		BBEE2B34C9F649BAF452A43C /* DandelionMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047D643F6E789EE62A16EA2 /* DandelionMesh.swift */; };
+		D91D409C490F4682AB1E1382 /* LeafMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0357FC2A3BB41029C50736D /* LeafMesh.swift */; };
+		CC6E34AFB0DF17786253D431 /* SVGTreeShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF564F695218BBD1305BD3BC /* SVGTreeShadow.swift */; };
+		D56C3B53A7A88018A5E46C8B /* FallenLeaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF48B5466A7F976F4073EE /* FallenLeaf.swift */; };
+		D69F60B80F080F61C6EB9220 /* night_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4651B14DD927709F130409F9 /* night_music.mp3 */; };
+		D8C9A956640ECD599D0D0FFE /* leaf_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E407E43B5A5C19BEBB7593E0 /* leaf_1.png */; };
+		E3DA766B984CA5C06DB2361E /* SpatialGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A89D783CFBDD4F5ED09566 /* SpatialGrid.swift */; };
+		EE8A8EBEFD0608CD5A6CFAD2 /* NightAmbientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455A8840A28BBD2C17B8CF6 /* NightAmbientView.swift */; };
+		EE908CB2E1EFD2A94CC2EB25 /* Subtract.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5090DB50BF5A989FD5969 /* Subtract.svg */; };
+		F4E956218342537632E031D0 /* leaf_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFB90C2F5ACCBD4F88E2EE /* leaf_2.png */; };
+		F65454965053DEDF5F8CBBD8 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3620DFC8E79D8B40C29FB28 /* Metal.framework */; };
+		FBCC44C2D3FB6DE94512CD4C /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = B249920444B55E9588012E0D /* Season.swift */; };
+		A161CC80D99A4A27A8B1582A /* SeasonDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71EB54110C4458B38C03E1 /* SeasonDialView.swift */; };
+		B066D713789542D6B4132F52 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678258C0DA4EBEB7E46B9D /* OnboardingView.swift */; };
+		FEE9A894214C4E98A9C57042 /* GrassShadowMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AEB767D0ED4AED9E965195 /* GrassShadowMask.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2728D39FD4BBE509662DF8C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D18C112FF4283C2BFF3B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB52CBFE19D0C96E73E6AF33;
+			remoteInfo = Meadow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0908BC59D3D4FDB3E15188CD /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		0A525582EB1DFB1695845B32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CCF48B5466A7F976F4073EE /* FallenLeaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallenLeaf.swift; sourceTree = "<group>"; };
+		13A7C3E8A31AB586407E24CE /* leaf_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf_3.png; sourceTree = "<group>"; };
+		18B2CAB1C82EF7A8DF75192B /* PerlinNoise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerlinNoise.swift; sourceTree = "<group>"; };
+		1ED25EF129DB4D110816676E /* GrassShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = GrassShaders.metal; sourceTree = "<group>"; };
+		20AEDB71AFA7AF1444637509 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		26515D094449216E3BF36A1A /* TimeOfDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDay.swift; sourceTree = "<group>"; };
+		2DEE54B4F90F4BFB9DDCEF15 /* MeadowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeadowApp.swift; sourceTree = "<group>"; };
+		363AE81978045E1D87D92568 /* MeadowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeadowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC5090DB50BF5A989FD5969 /* Subtract.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = Subtract.svg; sourceTree = "<group>"; };
+		43EC8E07298EC7DFFA3376F6 /* GrassRenderTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassRenderTypes.swift; sourceTree = "<group>"; };
+		4651B14DD927709F130409F9 /* night_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = night_music.mp3; sourceTree = "<group>"; };
+		502D21C831891C74705B1655 /* GrassFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassFieldViewModel.swift; sourceTree = "<group>"; };
+		51178CDF9D28A39C598F4C56 /* GrassAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassAudioEngine.swift; sourceTree = "<group>"; };
+		52EAF76D7ED871E5E08491D1 /* GrassBlade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassBlade.swift; sourceTree = "<group>"; };
+		5DAFB90C2F5ACCBD4F88E2EE /* leaf_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf_2.png; sourceTree = "<group>"; };
+		5DC6B540D2D273E94F242AAC /* leaf_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf_5.png; sourceTree = "<group>"; };
+		632CB37ED935CC2D6456F806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67551A5795D8B2DBA2B53A04 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		70750DEA9FD06E9D657B06C1 /* background_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background_music.mp3; sourceTree = "<group>"; };
+		76AEB767D0ED4AED9E965195 /* GrassShadowMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassShadowMask.swift; sourceTree = "<group>"; };
+		7F32238EBE18785D218FC595 /* leaf_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf_4.png; sourceTree = "<group>"; };
+		8186456FB1EF32D318751174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		81BF50F1355B3711B02CE1E3 /* GrassRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassRenderer.swift; sourceTree = "<group>"; };
+		8F3E2AF029A32496ADABC5ED /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
+		9078524FD1E85AD9713512A6 /* GrassPhysicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassPhysicsTests.swift; sourceTree = "<group>"; };
+		9AE3E87BB2E8CDB491DC5BB2 /* Meadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B730C46F35C01762AE4262 /* GrassFieldGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassFieldGenerator.swift; sourceTree = "<group>"; };
+		A73A1ACE004E721157516DE3 /* GrassSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassSettings.swift; sourceTree = "<group>"; };
+		B249920444B55E9588012E0D /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		CD71EB54110C4458B38C03E1 /* SeasonDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonDialView.swift; sourceTree = "<group>"; };
+		91678258C0DA4EBEB7E46B9D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B9A89D783CFBDD4F5ED09566 /* SpatialGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialGrid.swift; sourceTree = "<group>"; };
+		BC6EAF42BF4580F5C5B78199 /* leaf_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf_6.png; sourceTree = "<group>"; };
+		C047D643F6E789EE62A16EA2 /* DandelionMesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DandelionMesh.swift; sourceTree = "<group>"; };
+		E0357FC2A3BB41029C50736D /* LeafMesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafMesh.swift; sourceTree = "<group>"; };
+		C0E2F7EF5BB18C6F7A6ED7B4 /* FireflySystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflySystem.swift; sourceTree = "<group>"; };
+		CA2C795F9BB34E31F56D20F1 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		CF3668A7EF10FFDFD17A06EB /* SeasonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonButton.swift; sourceTree = "<group>"; };
+		5FAD804E3F4F4082988BBFEA /* GrassInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassInteraction.swift; sourceTree = "<group>"; };
+		BA7B5CB561684DDE9A0C47B9 /* GrassInteractionSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassInteractionSystem.swift; sourceTree = "<group>"; };
+		79DE57CA15974DD38F457F38 /* InteractionMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionMenuView.swift; sourceTree = "<group>"; };
+		CF564F695218BBD1305BD3BC /* SVGTreeShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGTreeShadow.swift; sourceTree = "<group>"; };
+		DBDC1B98061D90EBB0CD4173 /* DandelionSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DandelionSystem.swift; sourceTree = "<group>"; };
+		E22872C8076559F7EEF1AAA3 /* GrassOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassOverlayView.swift; sourceTree = "<group>"; };
+		E407E43B5A5C19BEBB7593E0 /* leaf_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf_1.png; sourceTree = "<group>"; };
+		E624CCEF87C08BB8FED22634 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		E66EDD7A09C2DF01F89B45E0 /* LeafSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafSystem.swift; sourceTree = "<group>"; };
+		E85527CA6D1953311AAA6EDE /* TreeShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeShadowView.swift; sourceTree = "<group>"; };
+		F3620DFC8E79D8B40C29FB28 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		F455A8840A28BBD2C17B8CF6 /* NightAmbientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightAmbientView.swift; sourceTree = "<group>"; };
+		FBDF5735ACFCB4A8DD10D828 /* leaf_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf_0.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC062183495E04D78F4DEE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65454965053DEDF5F8CBBD8 /* Metal.framework in Frameworks */,
+				81434C87AD0E39C45B011CEB /* MetalKit.framework in Frameworks */,
+				738E0D6DED6186811BA66A76 /* AVFoundation.framework in Frameworks */,
+				6AA3552E789CE8DF0B974E7D /* Model3DView in Frameworks */,
+				824F90916D399F3530561CB2 /* Vortex in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AAE3297BB5B4CBE8E490E97 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CD71EB54110C4458B38C03E1 /* SeasonDialView.swift */,
+				91678258C0DA4EBEB7E46B9D /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		022E38CA92B2ED5A35F849C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				632CB37ED935CC2D6456F806 /* Assets.xcassets */,
+				70750DEA9FD06E9D657B06C1 /* background_music.mp3 */,
+				8186456FB1EF32D318751174 /* Info.plist */,
+				4651B14DD927709F130409F9 /* night_music.mp3 */,
+				3BC5090DB50BF5A989FD5969 /* Subtract.svg */,
+				442F7D9FFAFDCDA51CA4EA2B /* LeafTextures */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		066E396143CB46FBF0D47C68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E22872C8076559F7EEF1AAA3 /* GrassOverlayView.swift */,
+				F455A8840A28BBD2C17B8CF6 /* NightAmbientView.swift */,
+				CF564F695218BBD1305BD3BC /* SVGTreeShadow.swift */,
+				E85527CA6D1953311AAA6EDE /* TreeShadowView.swift */,
+				162C38AAB8092CC1EEC1B666 /* UIComponents */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		066EE3984CAA43B0301B23B6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				29A3BE9F3DC309600795FE81 /* GrassField */,
+				4AAE3297BB5B4CBE8E490E97 /* Onboarding */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		1512BA2D7B848C4CD63D9DDC /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				51178CDF9D28A39C598F4C56 /* GrassAudioEngine.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		162C38AAB8092CC1EEC1B666 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				CF3668A7EF10FFDFD17A06EB /* SeasonButton.swift */,
+				79DE57CA15974DD38F457F38 /* InteractionMenuView.swift */,
+				8F3E2AF029A32496ADABC5ED /* SettingsButton.swift */,
+				0908BC59D3D4FDB3E15188CD /* SettingsSheet.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		1815783BCA99D91E6D5221BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67551A5795D8B2DBA2B53A04 /* AVFoundation.framework */,
+				F3620DFC8E79D8B40C29FB28 /* Metal.framework */,
+				E624CCEF87C08BB8FED22634 /* MetalKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A34D00111C66C09603A9FBD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0A525582EB1DFB1695845B32 /* ContentView.swift */,
+				2DEE54B4F90F4BFB9DDCEF15 /* MeadowApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		29A3BE9F3DC309600795FE81 /* GrassField */ = {
+			isa = PBXGroup;
+			children = (
+				66550FF3DBFA8B339B6648EA /* Metal */,
+				43A16740918FABF636874E2D /* Models */,
+				6B1D0CEFF0AD21DC226ACF84 /* ViewModels */,
+				066E396143CB46FBF0D47C68 /* Views */,
+			);
+			path = GrassField;
+			sourceTree = "<group>";
+		};
+		3BAF54DBCAD6CF11D5CA1EAE /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				A5B730C46F35C01762AE4262 /* GrassFieldGenerator.swift */,
+				18B2CAB1C82EF7A8DF75192B /* PerlinNoise.swift */,
+				B9A89D783CFBDD4F5ED09566 /* SpatialGrid.swift */,
+			);
+			path = Physics;
+			sourceTree = "<group>";
+		};
+		43A16740918FABF636874E2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C047D643F6E789EE62A16EA2 /* DandelionMesh.swift */,
+				DBDC1B98061D90EBB0CD4173 /* DandelionSystem.swift */,
+				0CCF48B5466A7F976F4073EE /* FallenLeaf.swift */,
+				C0E2F7EF5BB18C6F7A6ED7B4 /* FireflySystem.swift */,
+				52EAF76D7ED871E5E08491D1 /* GrassBlade.swift */,
+				5FAD804E3F4F4082988BBFEA /* GrassInteraction.swift */,
+				BA7B5CB561684DDE9A0C47B9 /* GrassInteractionSystem.swift */,
+				A73A1ACE004E721157516DE3 /* GrassSettings.swift */,
+				E66EDD7A09C2DF01F89B45E0 /* LeafSystem.swift */,
+				B249920444B55E9588012E0D /* Season.swift */,
+				26515D094449216E3BF36A1A /* TimeOfDay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		442F7D9FFAFDCDA51CA4EA2B /* LeafTextures */ = {
+			isa = PBXGroup;
+			children = (
+				FBDF5735ACFCB4A8DD10D828 /* leaf_0.png */,
+				E407E43B5A5C19BEBB7593E0 /* leaf_1.png */,
+				5DAFB90C2F5ACCBD4F88E2EE /* leaf_2.png */,
+				13A7C3E8A31AB586407E24CE /* leaf_3.png */,
+				7F32238EBE18785D218FC595 /* leaf_4.png */,
+				5DC6B540D2D273E94F242AAC /* leaf_5.png */,
+				BC6EAF42BF4580F5C5B78199 /* leaf_6.png */,
+			);
+			path = LeafTextures;
+			sourceTree = "<group>";
+		};
+		5743B3905E073CC8441082CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AE3E87BB2E8CDB491DC5BB2 /* Meadow.app */,
+				363AE81978045E1D87D92568 /* MeadowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A4712B60E88D4CDCDA7D47 /* Meadow */ = {
+			isa = PBXGroup;
+			children = (
+				1A34D00111C66C09603A9FBD /* App */,
+				D41BA82220E21679D2DD2E9B /* Core */,
+				066EE3984CAA43B0301B23B6 /* Features */,
+				022E38CA92B2ED5A35F849C8 /* Resources */,
+			);
+			path = Meadow;
+			sourceTree = "<group>";
+		};
+		66550FF3DBFA8B339B6648EA /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				81BF50F1355B3711B02CE1E3 /* GrassRenderer.swift */,
+				43EC8E07298EC7DFFA3376F6 /* GrassRenderTypes.swift */,
+				1ED25EF129DB4D110816676E /* GrassShaders.metal */,
+				20AEDB71AFA7AF1444637509 /* MetalView.swift */,
+				76AEB767D0ED4AED9E965195 /* GrassShadowMask.swift */,
+				E0357FC2A3BB41029C50736D /* LeafMesh.swift */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		6B1D0CEFF0AD21DC226ACF84 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				502D21C831891C74705B1655 /* GrassFieldViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		82A18C8193CDDC95352347F8 /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				CA2C795F9BB34E31F56D20F1 /* HapticsManager.swift */,
+			);
+			path = Haptics;
+			sourceTree = "<group>";
+		};
+		BD6DC37DCA159A497CFB56D4 /* MeadowTests */ = {
+			isa = PBXGroup;
+			children = (
+				9078524FD1E85AD9713512A6 /* GrassPhysicsTests.swift */,
+			);
+			path = MeadowTests;
+			sourceTree = "<group>";
+		};
+		D41BA82220E21679D2DD2E9B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1512BA2D7B848C4CD63D9DDC /* Audio */,
+				82A18C8193CDDC95352347F8 /* Haptics */,
+				3BAF54DBCAD6CF11D5CA1EAE /* Physics */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E00535E20CC56679054ED4CF = {
+			isa = PBXGroup;
+			children = (
+				63A4712B60E88D4CDCDA7D47 /* Meadow */,
+				BD6DC37DCA159A497CFB56D4 /* MeadowTests */,
+				1815783BCA99D91E6D5221BD /* Frameworks */,
+				5743B3905E073CC8441082CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA19F5539C59AB3D291C356 /* MeadowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BC04AD65214C4B955449DC /* Build configuration list for PBXNativeTarget "MeadowTests" */;
+			buildPhases = (
+				A7E6638BF6A8852FE47010F1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E523FCC1A9F64641E5393B76 /* PBXTargetDependency */,
+			);
+			name = MeadowTests;
+			packageProductDependencies = (
+			);
+			productName = MeadowTests;
+			productReference = 363AE81978045E1D87D92568 /* MeadowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB52CBFE19D0C96E73E6AF33 /* Meadow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFDA0A8FFF877F393240613 /* Build configuration list for PBXNativeTarget "Meadow" */;
+			buildPhases = (
+				4ECE1913CBA0529E5B82AEC3 /* Sources */,
+				7630E1E2B61DC887EFB7A866 /* Resources */,
+				EC062183495E04D78F4DEE1E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meadow;
+			packageProductDependencies = (
+				502567C72A6001FE277B37C7 /* Model3DView */,
+				675C1DEC80FBF30CB25AC463 /* Vortex */,
+			);
+			productName = Meadow;
+			productReference = 9AE3E87BB2E8CDB491DC5BB2 /* Meadow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D18C112FF4283C2BFF3B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = 79B7BE63FE6CB857844EF86A /* Build configuration list for PBXProject "Meadow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E00535E20CC56679054ED4CF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6E9CE253BF785562BF948845 /* XCRemoteSwiftPackageReference "swiftui-model3dview" */,
+				FE6C4CCA6CCF39D0E4E410D8 /* XCRemoteSwiftPackageReference "Vortex" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5743B3905E073CC8441082CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB52CBFE19D0C96E73E6AF33 /* Meadow */,
+				5CA19F5539C59AB3D291C356 /* MeadowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7630E1E2B61DC887EFB7A866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C81C07AD78F5F4C3902AC9C /* Assets.xcassets in Resources */,
+				EE908CB2E1EFD2A94CC2EB25 /* Subtract.svg in Resources */,
+				7B1ABB790753E8075AE387A8 /* background_music.mp3 in Resources */,
+				8BE4F554BCB18F83F9B444C1 /* leaf_0.png in Resources */,
+				D8C9A956640ECD599D0D0FFE /* leaf_1.png in Resources */,
+				F4E956218342537632E031D0 /* leaf_2.png in Resources */,
+				1BB087B71F413FF3B9A1EFA0 /* leaf_3.png in Resources */,
+				4192B78A23D3E16E30E44EE4 /* leaf_4.png in Resources */,
+				6E7BE1570BEF4980691974CB /* leaf_5.png in Resources */,
+				8085183BE20092F1291BD79D /* leaf_6.png in Resources */,
+				D69F60B80F080F61C6EB9220 /* night_music.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ECE1913CBA0529E5B82AEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DF105F0989811105ED1C1A /* ContentView.swift in Sources */,
+				BBEE2B34C9F649BAF452A43C /* DandelionMesh.swift in Sources */,
+				50D9D7860BEB3881E3F75E41 /* DandelionSystem.swift in Sources */,
+				D56C3B53A7A88018A5E46C8B /* FallenLeaf.swift in Sources */,
+				8CB2C3A0CBEB633A38F32A68 /* FireflySystem.swift in Sources */,
+				64DE041B551A3C23460D572F /* GrassAudioEngine.swift in Sources */,
+				4596E7AB9D91439B2FA56C92 /* GrassBlade.swift in Sources */,
+				343639F1376B723ECE86EDC9 /* GrassFieldGenerator.swift in Sources */,
+				7A847F50F3375EBE494C09E1 /* GrassFieldViewModel.swift in Sources */,
+				7FAF97A03E38BD1F8F0F79B6 /* GrassOverlayView.swift in Sources */,
+				3B448B1F9E9F1385F48784CB /* GrassRenderTypes.swift in Sources */,
+				2DE63C769AD4A31AFD56F68E /* GrassRenderer.swift in Sources */,
+				FEE9A894214C4E98A9C57042 /* GrassShadowMask.swift in Sources */,
+				B403EB474D28365ED224B95F /* GrassSettings.swift in Sources */,
+				B8C8219D51176C2245C12EFA /* GrassShaders.metal in Sources */,
+				49CD3073B8A3C776DA5AFDAD /* HapticsManager.swift in Sources */,
+				7F63A8583614BD668576B257 /* LeafSystem.swift in Sources */,
+				D91D409C490F4682AB1E1382 /* LeafMesh.swift in Sources */,
+				45F9B25E53EEF1954742B46C /* MeadowApp.swift in Sources */,
+				40F4D4097757F413350776AE /* MetalView.swift in Sources */,
+				EE8A8EBEFD0608CD5A6CFAD2 /* NightAmbientView.swift in Sources */,
+				1BA0C40DE775CF7EC75A9F04 /* PerlinNoise.swift in Sources */,
+				CC6E34AFB0DF17786253D431 /* SVGTreeShadow.swift in Sources */,
+				FBCC44C2D3FB6DE94512CD4C /* Season.swift in Sources */,
+				A161CC80D99A4A27A8B1582A /* SeasonDialView.swift in Sources */,
+				B066D713789542D6B4132F52 /* OnboardingView.swift in Sources */,
+				92B7DEA57C956B1F73FA1ACB /* SeasonButton.swift in Sources */,
+				D79383FD7DD840DBAF4D82E6 /* GrassInteraction.swift in Sources */,
+				EE5F45E8544F4F5FACB9F09A /* GrassInteractionSystem.swift in Sources */,
+				8791A45BD7C84170B44526D8 /* InteractionMenuView.swift in Sources */,
+				9D7638D25344E10639D696A7 /* SettingsButton.swift in Sources */,
+				7301B3B42A8CD18FFBCDE489 /* SettingsSheet.swift in Sources */,
+				E3DA766B984CA5C06DB2361E /* SpatialGrid.swift in Sources */,
+				A1AB1244A4996CCADABEA4F3 /* TimeOfDay.swift in Sources */,
+				9855A24035DFABAC9E76E795 /* TreeShadowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E6638BF6A8852FE47010F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE9CA35A2014930816416A8 /* GrassPhysicsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E523FCC1A9F64641E5393B76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB52CBFE19D0C96E73E6AF33 /* Meadow */;
+			targetProxy = 2728D39FD4BBE509662DF8C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13BB43000D4384C3F4DF0441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_INTERFACE_ORIENTATIONS = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3A131612C9C9C1F29042F99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smeva.meadow.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meadow.app/Meadow";
+			};
+			name = Debug;
+		};
+		538733DC7939D60C9A75FC8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = WT573K7H55;
+				INFOPLIST_FILE = Meadow/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smeva.meadow;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		633C2E5077A7FF111C20E9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_INTERFACE_ORIENTATIONS = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EC2AF64758EB7A5569308CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smeva.meadow.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meadow.app/Meadow";
+			};
+			name = Release;
+		};
+		F7F84F12396D0E13F005C1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = WT573K7H55;
+				INFOPLIST_FILE = Meadow/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smeva.meadow;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79B7BE63FE6CB857844EF86A /* Build configuration list for PBXProject "Meadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633C2E5077A7FF111C20E9CC /* Debug */,
+				13BB43000D4384C3F4DF0441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84BC04AD65214C4B955449DC /* Build configuration list for PBXNativeTarget "MeadowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A131612C9C9C1F29042F99D /* Debug */,
+				EC2AF64758EB7A5569308CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EEFDA0A8FFF877F393240613 /* Build configuration list for PBXNativeTarget "Meadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F84F12396D0E13F005C1A9 /* Debug */,
+				538733DC7939D60C9A75FC8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E9CE253BF785562BF948845 /* XCRemoteSwiftPackageReference "swiftui-model3dview" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/frzi/swiftui-model3dview";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+		FE6C4CCA6CCF39D0E4E410D8 /* XCRemoteSwiftPackageReference "Vortex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Vortex";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		502567C72A6001FE277B37C7 /* Model3DView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E9CE253BF785562BF948845 /* XCRemoteSwiftPackageReference "swiftui-model3dview" */;
+			productName = Model3DView;
+		};
+		675C1DEC80FBF30CB25AC463 /* Vortex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE6C4CCA6CCF39D0E4E410D8 /* XCRemoteSwiftPackageReference "Vortex" */;
+			productName = Vortex;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F7D18C112FF4283C2BFF3B57 /* Project object */;
+}
